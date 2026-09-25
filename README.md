@@ -53,11 +53,15 @@ dotnet run --project src/DocumentGraph.Tool -- watch .
 
 ---
 
-## 🤖 AI Agent Integration (MCP Server)
+## 🤖 AI Agent & Model Compatibility (Universal MCP Server)
 
-DocumentGraph implements the **Model Context Protocol (MCP)** over `stdio` with isolated `stderr` logging. Compatible with **Claude Desktop**, **Cursor**, and **Antigravity**.
+DocumentGraph is **100% Model-Agnostic and Client-Agnostic**. It implements the open **Model Context Protocol (MCP)** over `stdio` with isolated `stderr` logging:
 
-Drop-in configuration:
+- **Supported AI Clients**: **Roo Code**, **Zoo Code / Cline**, **Open Code (OpenHands)**, **Claude Desktop**, **Cursor**, **Windsurf**, **Continue.dev**, **Antigravity**.
+- **Supported LLM Brains**: **DeepSeek (V3, R1)**, **Anthropic Claude (3.5 Sonnet, Opus)**, **OpenAI (GPT-4o, o1)**, **Qwen 2.5**, **Meta Llama 3**, and any local model.
+- **Supported Embedding Engines**: Local offline **Ollama** (`nomic-embed-text`), **vLLM**, **LM Studio**, **LocalAI**, or any standard `/v1/embeddings` endpoint.
+
+Drop-in configuration (works in Roo Code, Cursor, Claude Desktop, etc.):
 ```json
 {
   "mcpServers": {
