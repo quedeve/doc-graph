@@ -1,0 +1,8 @@
+Meeting Notes: Architecture Sync
+Date: 2026-09-20
+Attendees: Alice, Bob
+
+Discussion Points:
+1. Migration of authorization handlers to DocumentGraph.
+2. Indexing schedule for PDF and DOCX specifications.
+3. Latency targets: FTS < 10ms, Vector search < 50ms.

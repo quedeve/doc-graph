@@ -1,0 +1,4 @@
+UserId,Username,Role,Active
+101,alice,Admin,true
+102,bob,User,true
+103,charlie,Guest,false

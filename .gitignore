@@ -1,0 +1,36 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+[Dd]ebug/
+[Rr]elease/
+dist/
+publish/
+
+## NuGet
+*.nupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+
+## VS / Rider
+.vs/
+.idea/
+*.DotSettings.user
+
+## OS
+Thumbs.db
+.DS_Store
+
+## DocumentGraph
+docgraph.json
+*Plan*.md
+DocumentGraph_Tool_and_MCP_Plan*.md
+
+## CodeGraph
+.codegraph/

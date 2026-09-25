@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/DocumentGraph.Api/DocumentGraph.Api.csproj" />
+    <Project Path="src/DocumentGraph.Core/DocumentGraph.Core.csproj" />
+    <Project Path="src/DocumentGraph.Indexer/DocumentGraph.Indexer.csproj" />
+    <Project Path="src/DocumentGraph.Mcp/DocumentGraph.Mcp.csproj" />
+    <Project Path="src/DocumentGraph.Parsers/DocumentGraph.Parsers.csproj" />
+    <Project Path="src/DocumentGraph.Search/DocumentGraph.Search.csproj" />
+    <Project Path="src/DocumentGraph.Storage/DocumentGraph.Storage.csproj" />
+    <Project Path="src/DocumentGraph.Tool/DocumentGraph.Tool.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/DocumentGraph.Tests/DocumentGraph.Tests.csproj" />
+  </Folder>
+</Solution>

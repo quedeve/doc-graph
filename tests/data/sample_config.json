@@ -1,0 +1,10 @@
+{
+  "system": {
+    "name": "AuthGateway",
+    "version": "2.4.0",
+    "security": {
+      "mfaEnabled": true,
+      "tokenExpiryMinutes": 15
+    }
+  }
+}
