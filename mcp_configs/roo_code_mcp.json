@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "documentgraph": {
+      "command": "c:/Users/Victor/Documents/GIT/outside/SemanticSearch/dist/mcp/DocumentGraph.Mcp.exe",
+      "args": [],
+      "env": {
+        "DOCGRAPH_CONFIG": "c:/Users/Victor/Documents/GIT/outside/SemanticSearch/docgraph.json"
+      },
+      "disabled": false,
+      "autoApprove": [
+        "search",
+        "open",
+        "outline",
+        "find",
+        "references",
+        "related",
+        "context"
+      ]
+    }
+  }
+}
